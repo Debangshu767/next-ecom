@@ -18,8 +18,8 @@
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "prisma": "^5.4.2",
-    "react": "^18.3.0-canary-8039e6d0b-20231026",
-    "react-dom": "^18.3.0-canary-8039e6d0b-20231026",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
