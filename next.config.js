@@ -2,7 +2,7 @@
 const nextConfig = {
 
     images : {
-        remotePatterns : [{hostname: "images.unsplash.com"}],
+        remotePatterns : [{hostname: "*"},{hostname: "plus.unsplash.com"}],
     },
 
     experimental : {
@@ -11,3 +11,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
