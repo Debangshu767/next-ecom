@@ -8,7 +8,24 @@ const config: Config = {
   ],
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["halloween"],
+    themes: [
+      {
+        lightTheme: {
+          primary: "#ef233c",
+          secondary: "d90429",
+          accent: "#8d99ae",
+          neutral: "#272136",
+          "base-100": "#ffffff",
+          info: "#778ad4",
+          success: "#23b893",
+          warning: "#f79926",
+          error: "#ea535a",
+          body: {
+            "background-color": "#edf2f4",
+          },
+        },
+      },
+    ],
   },
 }
 export default config
